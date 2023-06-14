@@ -1,0 +1,22 @@
+.header-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 7px;
+    /* border: 1px solid #ddd; */
+    background: #ccc;
+}
+.header{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header a{
+    text-decoration: none;
+    font-weight: 500;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+}

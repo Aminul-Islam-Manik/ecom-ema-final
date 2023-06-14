@@ -1,0 +1,12 @@
+.layout{
+    width: 100%;
+    display: flex;
+}
+.change-layout{
+    width: 70%;
+}
+.static-layout{
+    width: 30%;
+    height: 90vh;
+    background: #f17d7d;
+}
