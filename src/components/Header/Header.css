@@ -2,9 +2,9 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 7px;
-    /* border: 1px solid #ddd; */
+    /* position: fixed; */
     background: #ccc;
+    width: 100%;
 }
 .header{
     width: 30%;
@@ -15,8 +15,4 @@
 .header a{
     text-decoration: none;
     font-weight: 500;
-}
-h1, h2, h3, h4, h5, h6{
-    margin: 0;
-    padding: 0;
 }

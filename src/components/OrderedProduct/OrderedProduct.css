@@ -1,0 +1,38 @@
+.user-order-product{
+    width: 44%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid hsl(0, 0%, 73%);
+    margin: 0px auto;
+    margin-bottom: 7px;
+    padding: 4px;
+}
+.user-order-product img{
+    width: 13%;
+}
+.order-desc{
+    width: 86%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.order-info p{
+    margin: 0px;
+    padding: 0px;
+}
+.order-desc .delete{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #c4cacf69;
+    line-height: 38px;
+    text-align: center;
+    font-size: 16px;
+    color: red;
+    margin: 0;
+}

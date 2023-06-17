@@ -1,12 +1,14 @@
-.layout{
+/* .layout{
     width: 100%;
     display: flex;
-}
-.change-layout{
-    width: 70%;
-}
-.static-layout{
-    width: 30%;
     height: 90vh;
+    overflow: hidden;
+} */
+/* .change-layout{
+    width: 100%; 
+    overflow-y: scroll;
+} 
+.static-layout{
+    width: 23%;
     background: #f17d7d;
-}
+} */

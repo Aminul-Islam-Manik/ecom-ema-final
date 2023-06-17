@@ -1,21 +1,20 @@
 import React from 'react';
 import Header from '../Header/Header';
-import { Outlet } from 'react-router-dom';
-import Cart from '../Cart/Cart';
 import './Main.css';
+import { Outlet } from 'react-router-dom';
+
 
 const Main = () => {
+
     return (
-        <div>
+        <div className='main'>
+            <div className="main-top">
             <Header></Header>
-            <div className="layout">
-                <div className="change-layout">
-                <Outlet></Outlet>
-                </div>
-                <div className="static-layout">
-                <Cart></Cart>
-                </div>
             </div>
+            <div className="main-bottom">
+            <Outlet></Outlet>
+            </div>
+
         </div>
     );
 };

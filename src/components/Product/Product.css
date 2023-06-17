@@ -1,0 +1,15 @@
+.products {
+    width: 297px;
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+}
+.products img{
+    width: 100%;
+}
+.products-btn{
+    width: 100%;
+    padding: 7px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+}

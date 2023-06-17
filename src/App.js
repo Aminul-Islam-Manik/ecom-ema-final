@@ -3,6 +3,9 @@ import './App.css';
 import Main from './components/Main/Main';
 import Inventory from './components/Inventory/Inventory';
 import Shop from './components/Shop/Shop';
+import Orders from './components/Orders/Orders';
+import About from './components/About/About';
+import { productAndCart } from './loaders/productAndCart';
 
 function App() {
   const router = createBrowserRouter([
@@ -10,13 +13,18 @@ function App() {
       path:'/', 
       element:<Main></Main>,
       children:[
-        {path:'/', element:<Shop></Shop>},
-        {path:'shop', 
+        {path:'/', 
         loader:async()=>{
-          return fetch('https://raw.githubusercontent.com/ProgrammingHero1/ema-john-resources/main/fakeData/products.json')
-        },
+          return fetch('products.json')},
         element:<Shop></Shop>},
-        {path:'inventory', element:<Inventory></Inventory>}
+
+        {path:'orders', 
+        loader: productAndCart,
+        element:<Orders></Orders>},
+
+        {path:'inventory', element:<Inventory></Inventory>},
+        
+        {path:'about', element:<About></About>}
       ]
     }
 

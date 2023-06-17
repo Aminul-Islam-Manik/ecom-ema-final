@@ -1,0 +1,14 @@
+.cart{
+    padding: 15px;
+}
+.checkout-btn, .clear-btn{
+    width: 100%;
+    background: red;
+    border: none;
+    padding: 7px 0;
+    margin: 9px 0;
+}
+.checkout-btn{
+    background: rgb(3, 119, 155);
+}
+
